@@ -1,0 +1,17 @@
+{
+  "name": "bgm-worker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "express": "^4.18.2",
+    "replicate": "^0.29.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
